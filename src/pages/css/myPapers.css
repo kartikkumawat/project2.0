@@ -1,0 +1,54 @@
+.my-papers-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 5px auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.my-papers-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.my-papers-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.my-papers-table th,
+.my-papers-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.my-papers-table th {
+  background-color: #f4f4f4;
+}
+
+.my-papers-table td {
+  word-wrap: break-word;
+}
+
+.download-icon {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.icon-pdf {
+  color: red;
+}
+
+.icon-docx {
+  color: rgb(67, 67, 255);
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}

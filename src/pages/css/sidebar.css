@@ -1,0 +1,49 @@
+/* Sidebar container styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: white;
+  transform: translateX(-250px);
+  transition: transform 0.3s ease;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+/* Sidebar menu styling */
+.sidebar-menu {
+  list-style: none;
+  padding: 60px 0 0;
+}
+
+.sidebar-menu li {
+  padding: 15px 20px;
+}
+
+.sidebar-menu li a {
+  color: white;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.sidebar-menu li a:hover {
+  color: green;
+  background-color: #555;
+}
+
+.sidebar-menu li a svg {
+  margin-right: 10px;
+}
+
+.sidebar-menu .logout {
+  position: absolute;
+  bottom: 45px;
+  width: 100%;
+}

@@ -1,0 +1,72 @@
+.upload-paper-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload-paper-input,
+.upload-paper-file-input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.upload-paper-input:focus,
+.upload-paper-file-input:focus {
+  border-color: green;
+  outline: none;
+  box-shadow: 0 0 5px rgb(45, 148, 45);
+}
+
+.upload-paper-button {
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-paper-button:hover {
+  background-color: rgb(45, 148, 45);
+}
+
+.upload-paper-message {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.upload-paper-message.success {
+  color: green;
+}
+
+.upload-paper-message.info {
+  color: green;
+}
+
+.upload-paper-message.error {
+  color: red;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .upload-paper-container {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .upload-paper-button {
+    padding: 12px;
+    font-size: 16px;
+  }
+}
